@@ -68,3 +68,18 @@ header a{
 .button-primary:hover{
     background-color: lightgrey;
 }
+
+
+/* Jumbotron */
+
+.jumbotron{
+    padding-top: 100px;
+    background-color: blue;
+}
+
+.container-large {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 20px;
+
+}
