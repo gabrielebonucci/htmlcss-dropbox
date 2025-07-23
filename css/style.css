@@ -127,6 +127,12 @@ header a{
 
 /* piani business */
 
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .plans-section{
     padding: 100px 0;
 }
@@ -137,8 +143,8 @@ header a{
 
 .plans-grid{
     display: flex;
-    gap: 30px
-    ;
+    gap: 30px ;
+    flex-wrap: wrap;
 }
 
 .plan-card{
