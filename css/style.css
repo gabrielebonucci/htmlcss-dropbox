@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-    font-size: 36px;
+    font-size: 45px;
     margin-bottom: 40px;
 }
 
@@ -151,4 +151,10 @@ header a{
     border: 1px solid grey;
     width: calc((100% - 60px) / 3);
     min-height: 400px;
+}
+
+.plan-card-horizontal{
+    border: 1px solid gray;
+    width: 100%;
+
 }
