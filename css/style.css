@@ -9,5 +9,62 @@ box-sizing: border-box;
 
 body{
     font-family: 'Open Sans', sans-serif;
-    color: #333;
+}
+
+/* Header */
+
+header{
+    position: fixed;
+    padding: 15px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo{
+    height: 25px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Button */
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-primary{
+    background-color: #0062FE;
+    color: white;
+
+}
+
+.button-primary:hover{
+    background-color: lightgrey;
 }
