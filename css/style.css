@@ -156,7 +156,28 @@ header a{
 }
 
 .billing-options{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.card-header{
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.card-body{
+    text-align: left;
+    padding: 25px;
+}
+
+.plan-card h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.price-plan{
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .plans-grid{
@@ -176,7 +197,9 @@ header a{
     width: 100%;
 
 }
-
+.billing-period {
+    color: #6c757d
+}
 /* section partner */
 
 
