@@ -160,13 +160,12 @@ header a{
 }
 
 .card-header{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #dcdcdc;
     padding: 10px 0;
     text-align: center;
 }
 
 .card-body{
-    text-align: left;
     padding: 25px;
 }
 
@@ -177,7 +176,8 @@ header a{
 
 .price-plan{
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    display: block;
 }
 
 .plans-grid{
@@ -187,19 +187,41 @@ header a{
 }
 
 .plan-card{
-    border: 1px solid grey;
     width: calc((100% - 60px) / 3);
-    min-height: 400px;
+}
+
+.plan-card,
+.plan-card-horizontal {
+    border: 1px solid #dcdcdc;
 }
 
 .plan-card-horizontal{
-    border: 1px solid gray;
+    display: flex;
+    align-items: center;
     width: 100%;
+    padding: 20px 30px;
 
 }
 .billing-period {
-    color: #6c757d
+    color: #6c757d;
+    display: block;
 }
+
+.card-body ul{
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+
+}
+
+.card-body li{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+
+}
+
 /* section partner */
 
 
