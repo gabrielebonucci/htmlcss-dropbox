@@ -81,26 +81,27 @@ header a{
     border: none;
     cursor: pointer;
     text-decoration: none;
-}
-
-.button-primary{
     background-color: #0062FE;
     color: white;
+}
+
+.button-card{
+   display: flex;
+   justify-content: center;
 
 }
 
-.button-secondary{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    margin-top: 15px;
-
-}
-
-.button-primary:hover{
+.button:hover{
     background-color: lightgrey;
 }
 
+.button-partner{
+    background-color: white ;
+    color: black;
+    border: 1px solid black;
+
+}
+  
 
 /* Jumbotron */
 
@@ -145,10 +146,17 @@ header a{
 
 /* piani business */
 
+
+
 .container-small{
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+}
+.price-container{
+ margin-bottom: 25px; 
+    min-height: 40px;
+
 }
 
 .plans-section{
@@ -166,7 +174,7 @@ header a{
 }
 
 .card-body{
-    padding: 25px;
+    padding: 30px 25px;
 }
 
 .plan-card h4{
@@ -222,12 +230,42 @@ header a{
 
 }
 
+.buynow-link a{
+    color: #0061ff;
+    text-decoration: underline;
+
+}
+
+.features-list li, .highlights-list li {
+    display: flex;
+    align-items: flex-start; /* Correzione allineamento icona */
+    gap: 10px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.highlights-list .fa-check {
+    color: #0061ff;
+}
+
+.card-body hr {
+    border: none;
+    border-top: 1px solid #dcdcdc;
+    width: 50px;
+    margin: 30px 0;
+}
+
+.buynow-link{
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 /* section partner */
 
 
 
 .partner-section{
-padding: 50px 0;
+padding: 100px 0;
 
 }
 
@@ -247,6 +285,11 @@ padding: 50px 0;
 
 .partner-img img{
     width: 100%;
+}
+
+.partner-text p {
+    line-height: 1.7;
+    margin-bottom: 30px;
 }
 
 /* section operation */
