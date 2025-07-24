@@ -225,7 +225,6 @@ header a{
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
-    border: 1px solid #d5dde4;
     gap: 20px;
     padding: 30px;
 }
@@ -244,10 +243,7 @@ header a{
     flex-shrink: 0;
 }
 
-.card-header-team{
-    display: flex;
 
-}
 
 .billing-period {
     color: #6c757d;
