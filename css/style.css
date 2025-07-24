@@ -164,7 +164,16 @@ header a{
 }
 
 .billing-options{
+    display: flex;
+    align-items: center;
+    gap: 30px;
     margin-bottom: 50px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .card-header{
