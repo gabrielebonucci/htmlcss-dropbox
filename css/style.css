@@ -181,6 +181,9 @@ header a{
     font-size: 24px;
     margin-bottom: 15px;
 }
+.plan-card h6{
+    font-size: 15px;
+}
 
 .price-plan{
     font-weight: bold;
@@ -198,18 +201,26 @@ header a{
     width: calc((100% - 60px) / 3);
 }
 
-.plan-card,
-.plan-card-horizontal {
+/* card orizzontale */
+
+.plan-card {
     border: 1px solid #dcdcdc;
 }
 
-.plan-card-horizontal{
+.team-container{
     display: flex;
     align-items: center;
     width: 100%;
     padding: 20px 30px;
+    margin-top: 20px; ;
+    border: 1px solid #d5dde4;
 
 }
+.card-header-team{
+    display: flex;
+
+}
+
 .billing-period {
     color: #6c757d;
     display: block;
