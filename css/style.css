@@ -233,6 +233,7 @@ padding: 50px 0;
 
 .team-section{
     padding: 100px 0;
+    margin-bottom: 50px;
 }
 
 /* Footer */
@@ -243,17 +244,35 @@ footer{
     color: white;
 }
 
-.footer-content{
-    display: flex;
-    padding-bottom: 30px;
-}
 
 .footer-nav{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    
 }
 
 .nav-col{
     flex-basis: 20%;
-    padding: 0, 15px;
+}
+
+.nav-col h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.nav-col li {
+    margin-bottom: 10px; 
+}
+
+.nav-col a{
+    color: gray;
+    text-decoration: none;
+}
+
+/* Footer bottom */
+
+.footer-bottom{
+    color: #8F9D96;
 }
