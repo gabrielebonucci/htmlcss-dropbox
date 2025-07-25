@@ -122,6 +122,8 @@ header a{
 .jumbo-content{
     display: flex;
     gap: 30px;
+    position: relative;
+    bottom: -100px;
 }
 
 .jumbo-text{
@@ -130,7 +132,6 @@ header a{
 }
 
 .jumbo-text p {
-    margin-top: 30px;
     margin-bottom: 30px;
     line-height: 1.5;
 }
@@ -143,6 +144,13 @@ header a{
     max-width: 100%;
     display: block;
 }
+
+.fa-arrow-down {
+    font-size: 45px;
+
+}
+
+
 
 /* piani business */
 
